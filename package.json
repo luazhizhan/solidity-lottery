@@ -1,8 +1,8 @@
 {
-  "name": "hardhat-typescript-template",
+  "name": "solidity-lottery",
   "version": "0.0.1",
   "author": "Lua Zhi Zhan",
-  "license": "MIT",
+  "private": true,
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
@@ -36,6 +36,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.2.0"
+    "@openzeppelin/contracts": "^3.4.1"
   }
 }
